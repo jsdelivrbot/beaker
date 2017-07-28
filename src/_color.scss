@@ -23,6 +23,14 @@ $purple              : #53599A;
 $blue                : #118AB2;
 $deep-blue           : #073B4C;
 
+// Colors - Alternate Options
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+$primary             : #06D6A0;
+$secondary           : #118AB2;
+$danger              : #E83D3A;
+$caution             : #FFD166;
+
 // Monochromes
 // ––––––––––––––––––––––––––––––––––––––––––––––––––
 
@@ -59,3 +67,30 @@ $grey                : #6D7275; //grey4
 $dark-grey           : #5A5E60; //grey5
 $darker-grey         : #46494B; //grey6
 $very-dark-grey      : #323436; //grey7
+
+
+.blue { background-color: $blue; }
+.deep-blue { background-color: $deep-blue; }
+.green { background-color: $green; }
+.orange { background-color: $orange; }
+.yellow { background-color: $yellow; }
+.pink { background-color: $pink; }
+.purple { background-color: $purple; }
+.red { background-color: $red; }
+
+.primary { background-color: $primary; }
+.secondary { background-color: $secondary; }
+.danger { background-color: $danger; }
+.caution { background-color: $caution; }
+
+.very-light-gray { background-color: $very-light-gray; }
+.lighter-gray { background-color: $lighter-gray; }
+.light-gray { background-color: $light-gray; }
+.gray { background-color: $gray; }
+.dark-gray { background-color: $dark-gray; }
+.darker-gray { background-color: $darker-gray; }
+.very-dark-gray { background-color: $very-dark-gray; }
+
+.off-white { background-color: $off-white; }
+.off-black { background-color: $off-black; }
+.outer-space { background-color: $outer-space; }
