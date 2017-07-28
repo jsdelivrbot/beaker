@@ -1,0 +1,30 @@
+
+// Base
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: $font-stack;
+}
+
+code {
+    font-family: $monospace-stack;
+}
