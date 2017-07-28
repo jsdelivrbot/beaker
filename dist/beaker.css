@@ -508,6 +508,18 @@ template {
     background-color: #323436;
 }
 
+.off-white {
+    background-color: #F6F6F6;
+}
+
+.off-black {
+    background-color: #141516;
+}
+
+.outer-space {
+    background-color: #44414C;
+}
+
 *,
 *::after,
 *::before {
@@ -534,12 +546,13 @@ body {
 }
 
 .swatch {
-    width: 200px;
-    height: 100px;
+    width: 220px;
+    height: 110px;
     border-radius: 8px;
     margin: 6px;
     display: inline-block;
     text-align: center;
+    cursor: pointer;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }

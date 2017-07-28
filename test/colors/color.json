@@ -22,7 +22,7 @@
         "gray": "#6D7275",
         "dark-gray": "#5A5E60",
         "darker-gray": "#46494B",
-        "very-dark-gray": "#323436",
+        "very-dark-gray": "#323436"
     },
     "specials": {
         "off-black": "#141516",
