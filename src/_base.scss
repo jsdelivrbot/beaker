@@ -23,8 +23,8 @@ html {
 
 body {
     font-family: $font-stack;
-}
 
-code {
-    font-family: $monospace-stack;
+    margin: 4px;
+
+    color: $text-color;
 }

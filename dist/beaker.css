@@ -453,8 +453,6 @@ html {
 
 body {
     font-family: "Roboto", "Helvetica Neue", Arial, Helvetica, sans-serif;
-}
-
-code {
-    font-family: "Monaco", "Menlo", "Ubuntu Mono", "Consolas", monospace;
+    margin: 4px;
+    color: #323436;
 }
