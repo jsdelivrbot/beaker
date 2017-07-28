@@ -1,1 +1,1 @@
-# :microscope: Beaker
+# Beaker
