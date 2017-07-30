@@ -16,6 +16,7 @@
         "danger": "#E83D3A"
     },
     "grays": {
+        "lightest-gray": "#E9EAEA",
         "very-light-gray": "#AFB2B3",
         "lighter-gray": "#969A97",
         "light-gray": "#878B8E",

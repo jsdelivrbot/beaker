@@ -1,11 +1,9 @@
 
-// Sass Modules
+// Components
 // ––––––––––––––––––––––––––––––––––––––––––––––––––
 
-@import 'reset';
-@import 'color';
-@import 'variables';
-@import 'base';
-@import 'components';
-@import 'typography';
-@import 'toolkit';
+hr {
+    background-color: $very-light-gray;
+    height: 2px;
+    border: none;
+}

@@ -7,7 +7,7 @@ $(document).ready(function() {
                         '<div class"swatches">';
             for (let color in colors[prop]) {
                 var hex = colors[prop][color];
-                swatches += '<div class="'+ color + ' swatch">' +
+                swatches += '<div class="'+ color + ' dot">' +
                                 '<span>' + hex + '</span>' +
                                 '<span>' + color + '</span>' +
                             '</div>';
@@ -25,6 +25,6 @@ $(document).ready(function() {
 
         // Refer here:
         //   https://stackoverflow.com/questions/22581345/click-button-copy-to-clipboard-using-jquery
-        
+
     });
 });

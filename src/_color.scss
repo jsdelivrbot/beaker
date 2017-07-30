@@ -41,13 +41,14 @@ $text-color          : #323436;
 $off-black           : #141516;
 
 // GRAY - All shades of monochrome-base
-$very-light-gray     : #AFB2B3; //gray1
-$lighter-gray        : #969A97; //gray2
-$light-gray          : #878B8E; //gray3
-$gray                : #6D7275; //gray4
-$dark-gray           : #5A5E60; //gray5
-$darker-gray         : #46494B; //gray6
-$very-dark-gray      : #323436; //gray7
+$lightest-gray       : #E9EAEA; // gray0
+$very-light-gray     : #AFB2B3; // gray1
+$lighter-gray        : #969A97; // gray2
+$light-gray          : #878B8E; // gray3
+$gray                : #6D7275; // gray4
+$dark-gray           : #5A5E60; // gray5
+$darker-gray         : #46494B; // gray6
+$very-dark-gray      : #323436; // gray7
 
 // WHITE - Shade of monochrome-base
 $off-white           : #F6F6F6;
@@ -59,14 +60,15 @@ $outer-space         : #44414C;
 // Monochromes - For the Non-Americans
 // ––––––––––––––––––––––––––––––––––––––––––––––––––
 
-// GRAY - All shades of monochrome-base
-$very-light-grey     : #AFB2B3; //grey1
-$lighter-grey        : #969A97; //grey2
-$light-grey          : #878B8E; //grey3
-$grey                : #6D7275; //grey4
-$dark-grey           : #5A5E60; //grey5
-$darker-grey         : #46494B; //grey6
-$very-dark-grey      : #323436; //grey7
+// GREY - All shades of monochrome-base
+$lightest-grey       : #E9EAEA; // grey0
+$very-light-grey     : #AFB2B3; // grey1
+$lighter-grey        : #969A97; // grey2
+$light-grey          : #878B8E; // grey3
+$grey                : #6D7275; // grey4
+$dark-grey           : #5A5E60; // grey5
+$darker-grey         : #46494B; // grey6
+$very-dark-grey      : #323436; // grey7
 
 
 .blue { background-color: $blue; }
@@ -83,6 +85,7 @@ $very-dark-grey      : #323436; //grey7
 .danger { background-color: $danger; }
 .caution { background-color: $caution; }
 
+.lightest-gray { background-color: $lightest-gray; }
 .very-light-gray { background-color: $very-light-gray; }
 .lighter-gray { background-color: $lighter-gray; }
 .light-gray { background-color: $light-gray; }

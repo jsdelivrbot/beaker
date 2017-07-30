@@ -1,0 +1,7 @@
+.header {
+    display: table;
+    &.enhanced {
+        padding-bottom: 4px;
+        border-bottom: 2px solid $very-light-grey;
+    }
+}
