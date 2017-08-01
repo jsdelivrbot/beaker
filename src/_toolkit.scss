@@ -3,36 +3,47 @@
 // Color Swatch
 // ––––––––––––––––––––––––––––––––––––––––––––––––––
 
+// .swatch {
+//     width: 220px;
+//     height: 110px;
+//     margin: 6px;
+//     border-radius: 8px;
+//     display: inline-block;
+//     text-align: center;
+//     cursor: pointer;
+//     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+//     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+//
+//     &:hover {
+//         box-shadow: 0 10px 24px rgba(0,0,0,0.25), 0 6px 6px rgba(0,0,0,0.22);
+//     }
+//
+//     span {
+//         color: $off-white;
+//         font-size: 30px;
+//         display: block;
+//         position: relative;
+//         top: 50%;
+//         transform: translateY(-50%);
+//
+//         &.inverted {
+//             color: $off-black;
+//         }
+//     }
+//
+//     span:last-child {
+//         font-size: 14px;
+//     }
+// }
+
 .swatch {
-    width: 220px;
-    height: 110px;
-    margin: 6px;
-    border-radius: 8px;
-    display: inline-block;
-    text-align: center;
-    cursor: pointer;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    width: 128px;
+    background-color: #FFF;
+    box-shadow: 0 2px 6px #CCC;
+    border-radius: 5px;
 
-    &:hover {
-        box-shadow: 0 10px 24px rgba(0,0,0,0.25), 0 6px 6px rgba(0,0,0,0.22);
-    }
-
-    span {
-        color: $off-white;
-        font-size: 30px;
-        display: block;
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%);
-
-        &.inverted {
-            color: $off-black;
-        }
-    }
-
-    span:last-child {
-        font-size: 14px;
+    .color.left {
+        
     }
 }
 

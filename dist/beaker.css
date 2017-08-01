@@ -480,6 +480,10 @@ template {
     background-color: #FFD166;
 }
 
+.lightest-gray {
+    background-color: #E9EAEA;
+}
+
 .very-light-gray {
     background-color: #AFB2B3;
 }
@@ -545,35 +549,58 @@ body {
     color: #323436;
 }
 
+hr {
+    background-color: #AFB2B3;
+    height: 2px;
+    border: none;
+}
+
+.header {
+    display: table;
+}
+
+.header.enhanced {
+    padding-bottom: 4px;
+    border-bottom: 2px solid #AFB2B3;
+}
+
 .swatch {
-    width: 220px;
-    height: 110px;
+    width: 128px;
+    background-color: #FFF;
+    box-shadow: 0 2px 6px #CCC;
+    border-radius: 5px;
+}
+
+.dot {
+    width: 150px;
+    height: 150px;
+    margin: 8px;
+    border-radius: 50%;
     display: inline-block;
     text-align: center;
     cursor: pointer;
-    border: 1px solid #F6F6F6;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
-.swatch:hover {
-    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.25), 0 6px 6px rgba(0, 0, 0, 0.22);
+.dot:hover {
+    height: 200px;
+    width: 200px;
 }
 
-.swatch span {
-    color: white;
-    font-size: 30px;
+.dot span {
+    color: #F6F6F6;
+    font-size: 24px;
     display: block;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
 }
 
-.swatch span.inverted {
-    color: black;
+.dot span.inverted {
+    color: #141516;
 }
 
-.swatch span:last-child {
+.dot span:last-child {
     font-size: 14px;
 }
 
