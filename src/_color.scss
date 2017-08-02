@@ -3,27 +3,47 @@
 // ––––––––––––––––––––––––––––––––––––––––––––––––––
 
 $carribean-green     : #06D6A0; // #05BC8B
+$dark-pastel-green   : #00BF57;
 $orange-yellow       : #FFD166; // #E5BC5B
 $rajah               : #FFA559; // #E59350
 $vermilion           : #E83D3A; // #CE3633
 $infra-red           : #EF476F; // #D64063
 $liberty             : #53599A; // #44497F
-$dark-violet         : #960CE8; // #860ACE
+// $violet              : #960CE8; // #860ACE
 $cyan-cornflower-blue: #118AB2; // #0F7699
 $warm-black          : #073B4C; // #042733
+$tiffany-blue        : #00BBBF;
+$rich-electric-blue  : #0099D6;
 
 // Colors - Basic Names
 // ––––––––––––––––––––––––––––––––––––––––––––––––––
 
+$aqua                : #00BBBF;
+$dark-aqua           : #00A2A5;
+$sky                 : #0099D6;
+$dark-sky            : #0087BC;
 $green               : #06D6A0;
 $dark-green          : #05BC8B;
+$grass               : #00BF57;
+$dark-grass          : #00A54A;
 $yellow              : #FFD166;
+$dark-yellow         : #E5BC5B;
 $orange              : #FFA559;
+$dark-orange         : #E59350;
 $red                 : #E83D3A;
+$dark-red            : #CE3633;
 $pink                : #EF476F;
+$dark-pink           : #D64063;
 $purple              : #53599A;
+$dark-purple         : #44497F;
+// Cut off?
+$violet              : #960CE8;
+$dark-violet         : #860ACE;
 $blue                : #118AB2;
+$dark-blue           : #0F7699;
 $deep-blue           : #073B4C;
+$dark-deep-blue      : #042733;
+
 
 // Colors - Alternate Options
 // ––––––––––––––––––––––––––––––––––––––––––––––––––
@@ -44,13 +64,22 @@ $off-black           : #141516;
 
 // GRAY - All shades of monochrome-base
 $lightest-gray       : #E9EAEA; // gray0
-$very-light-gray     : #AFB2B3; // gray1
-$lighter-gray        : #969A97; // gray2
-$light-gray          : #878B8E; // gray3
-$gray                : #6D7275; // gray4
-$dark-gray           : #5A5E60; // gray5
-$darker-gray         : #46494B; // gray6
-$very-dark-gray      : #323436; // gray7
+// $very-light-gray     : #AFB2B3; // gray1
+// $lighter-gray        : #969A97; // gray2
+// $light-gray          : #878B8E; // gray3
+// $gray                : #6D7275; // gray4
+// $dark-gray           : #5A5E60; // gray5
+// $darker-gray         : #46494B; // gray6
+// $very-dark-gray      : #323436; // gray7
+
+// New Gray Scale? NOTE: LIGHT GRAY NEEDS TO BE LIGHTER
+$very-light-gray     : #B4BCC1;
+$lighter-gray        : #9CA3A8;
+$light-gray          : #848B8E;
+$gray                : #6D7275;
+$dark-gray           : #55595B;
+$darker-gray         : #3D4042;
+$very-dark-gray      : #252728;
 
 // WHITE - Shade of monochrome-base
 $off-white           : #F6F6F6;
@@ -73,14 +102,31 @@ $darker-grey         : #46494B; // grey6
 $very-dark-grey      : #323436; // grey7
 
 
+.sky { background-color: $sky; }
 .blue { background-color: $blue; }
 .deep-blue { background-color: $deep-blue; }
+.aqua { background-color: $aqua; }
 .green { background-color: $green; }
+.grass { background-color: $grass; }
 .orange { background-color: $orange; }
 .yellow { background-color: $yellow; }
 .pink { background-color: $pink; }
 .purple { background-color: $purple; }
+.violet { background-color: $violet; }
 .red { background-color: $red; }
+
+.dark-sky { background-color: $dark-sky; }
+.dark-blue { background-color: $dark-blue; }
+.dark-deep-blue { background-color: $dark-deep-blue; }
+.dark-aqua { background-color: $dark-aqua; }
+.dark-green { background-color: $dark-green; }
+.dark-grass { background-color: $dark-grass; }
+.dark-orange { background-color: $dark-orange; }
+.dark-yellow { background-color: $dark-yellow; }
+.dark-pink { background-color: $dark-pink; }
+.dark-purple { background-color: $dark-purple; }
+.dark-violet { background-color: $dark-violet; }
+.dark-red { background-color: $dark-red; }
 
 .primary { background-color: $primary; }
 .secondary { background-color: $secondary; }
